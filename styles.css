@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th {
+  padding: 0;
+}
+
+/* Custom CSS */
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: hsl(0, 0%, 98%);
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem 1.2rem;
+}
+
+section{
+  padding: 0 0.5rem;
+  text-align: center;
+}
+
+h1, h2{
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: hsl(234, 12%, 34%);
+}
+
+h1{
+  font-weight: 200;
+}
+
+h2{
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+section p{
+  font-size: 0.9rem;
+  max-width: 30rem;
+  margin-bottom: 2rem;
+  color: hsl(229, 6%, 66%);
+}
+
+article{
+  height: 100%;
+  margin: 2rem 0;
+  max-width: 22rem;
+  padding: 1.2rem 1.5rem;
+  overflow: hidden;
+  box-shadow: 6px 43px 60px -10px rgba(168,191,219,0.45);
+}
+
+h3{
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  color: hsl(234, 12%, 34%);
+}
+
+article > p{
+  font-size: 0.8rem;
+  margin-right: 1.2rem;
+  color: hsl(229, 6%, 66%)
+}
+
+img{
+  float: right;
+  margin: 2rem 0 1rem 0;
+}
+
+.cyan{
+  border-radius: 0.5rem;
+  border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.red{
+  border-radius: 0.5rem;
+  border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.orange{
+  border-radius: 0.5rem;
+  border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.blue{
+  border-radius: 0.5rem;
+  border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 800px){
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1199px){
+  .container{
+    flex-direction: column;
+  }
+  
+  .column{
+    display: flex;
+    gap: 1rem;
+  }
+}
+
+@media (min-width: 1200px){
+  .container{
+    gap: 1.5rem;
+  }
+  
+  h1{
+    font-size: 2rem;
+  }
+  
+  h2{
+    font-size: 2rem;
+  }
