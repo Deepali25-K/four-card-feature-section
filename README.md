@@ -13,13 +13,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Web](/screenshots/FM-11(2).png)
+
+![Mobile](/screenshots/FM-11(1).png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Demo](https://four-card-feature-section-deepali.netlify.app/)
 
 ## My process
 
@@ -32,8 +33,7 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@Deepali25-K](https://www.frontendmentor.io/profile/Deepali25-K)
+- Twitter - [@Iam_DeepaliP](https://twitter.com/Iam_DeepaliP)
+- Codepen - [@Iam_DeepaliP](https://codepen.io/Iam_DeepaliP)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
